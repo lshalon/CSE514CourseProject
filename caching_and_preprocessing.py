@@ -1,3 +1,11 @@
+'''
+A lot of this code is inspired by and or copied from:
+https://www.kaggle.com/counter/image-segmentation-for-self-driving-cars
+https://github.com/meetshah1995/pytorch-semseg/blob/master/ptsemseg/models/unet.py
+
+Thanks to those developers for their work.
+'''
+
 import cv2
 import os
 import glob
