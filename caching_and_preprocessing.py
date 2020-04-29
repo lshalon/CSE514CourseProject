@@ -58,6 +58,8 @@ def make_dataset_VOC():
     Make necessary dirs
     '''
 
+    print('Making your VOC dataset')
+
     convert_segmmentations_VOC()
 
     if not os.path.exists(os.path.join(VOC_DATA_PATH, "train")):
